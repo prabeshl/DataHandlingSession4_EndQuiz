@@ -210,7 +210,7 @@
         function showResult() {
             quizContainer.style.display = 'none';
             nextButton.style.display = 'none';
-            resultContainer.innerHTML = `🎯 Warm-Up Quiz Completed! Your score is: ${score}/${quizQuestions.length}`;
+            resultContainer.innerHTML = `🎯 Session Quiz Completed! Your score is: ${score}/${quizQuestions.length}`;
             if (score === quizQuestions.length) {
                 resultContainer.innerHTML += '<br>🏆 Perfect! You\'re ready for Session 4!';
             } else if (score >= quizQuestions.length / 2) {
